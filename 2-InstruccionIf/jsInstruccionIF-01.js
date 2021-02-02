@@ -1,6 +1,9 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let nombre;
+
+	nombre = prompt ("Ingrese su nombre");
+
+		alert("nombre");
 
 }//FIN DE LA FUNCIÓN
