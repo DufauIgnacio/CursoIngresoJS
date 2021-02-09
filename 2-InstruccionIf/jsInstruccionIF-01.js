@@ -1,9 +1,14 @@
 function mostrar()
 {
-	let nombre;
+	let edad;
+    edad = txtIdEdad.value;
+    edad = parseInt (edad);
+    if (edad == 15)
+    { 
+        alert ("niña bonita");
+    }	
 
-	nombre = prompt ("Ingrese su nombre");
 
-		alert("nombre");
-
-}//FIN DE LA FUNCIÓN
+	
+}//FIN DE LA FUNCIÓN txtIdEdad//
+//relaciones: >, <, >=, <=, !=, == 
