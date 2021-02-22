@@ -3,14 +3,14 @@ function mostrar()
 	//Genero el número RANDOM entre 1 y 10 
     let ran;
 
-    Math.floor(Math.random(ran) * 10) + 1;
+    ran = Math.floor(Math.random(ran) * 11);
 
-    if (ran < 10 && ran > 9)
+    if (ran > 8 && ran < 11)
     {
     	alert (" EXCELENTE ");
     }
     else 
-    	if (ran > 4)
+    	if (ran > 3)
     	{
     		alert (" APROBO ");
 

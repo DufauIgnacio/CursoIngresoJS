@@ -4,7 +4,7 @@ function mostrar()
 	let edad;
 	let estadocivil;
 
-	edad = txtIdEdad .value;
+	edad = txtIdEdad.value;
 	edad = parseInt (edad);
 	estadocivil = estadoCivil.value;
 

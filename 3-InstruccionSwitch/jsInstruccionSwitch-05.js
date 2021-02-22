@@ -1,11 +1,27 @@
 function mostrar()
 {
-	//tomo la hora
-	var horaDelDia =txtIdHora.value;
-	alert(horaDelDia);
 	
-	
+	let hora;
+	hora = txtIdHora.value;
+
+	switch (hora){
+		case ("7"):
+		alert ("es de mañana");
+     	break;
+     	case ("8"):
+     	alert ("es de mañana");
+     	break;
+     	case ("9"):
+     	alert ("es de mañana");
+     	break;
+        case ("10"):
+     	alert ("es de mañana");
+     	break;
+     	case ("11"):
+     	alert ("es de mañana");
+     	break;
+	}
 
 
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN txtIdHora
